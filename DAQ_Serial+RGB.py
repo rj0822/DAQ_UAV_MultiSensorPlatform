@@ -1,4 +1,4 @@
-# Data Acquisition Program for UAV-Based Multi-Sensor Remote Sensing Platform
+# Data Acquisition Program for Multi-Sensor Multi-Hazard Monitoring Unmanned Aircraft System (mUAS)
 
 # Author: Ruipu Ji (r5ji@ucsd.edu)
 # Affiliation: Department of Structural Engineering, University of California San Diego
@@ -7,11 +7,11 @@
 # Required packages: numpy, opencv, pyserial, depthai
 
 # Test platform:
-# (1) Ultrasonic anemometer x 2: LI-COR LI550P
+# (1) Ultrasonic anemometer x 2: LI-COR LI550-P
 # (2) Particulate matter sensor x 1: Honeywell HPMA115C0-004
 # (3) RGB camera x 1: Luxonis OAK-1W IMX378
-# (4) Onboard computer: Intel NUC7
-# (5) UAV platform: FREEFLY Alta-X (with TATTU 12S 16Ah battery set)
+# (4) Onboard computer: Intel NUC7i5BNH
+# (5) UAV platform: Freefly Alta-X (with Tattu 12S 16Ah battery set)
 
 import depthai as dai
 import datetime
@@ -228,5 +228,6 @@ for t in Threads:
     t.join()
 
 print("DATA COLLECTION COMPLETED. ALL DATA SAVED TO DISK.")
+
 
 
