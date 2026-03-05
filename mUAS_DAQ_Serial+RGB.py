@@ -11,7 +11,7 @@
 # (2) Particulate matter sensor x 1: Honeywell HPMA115C0-004
 # (3) RGB camera x 1: Luxonis OAK-1W IMX378
 # (4) Onboard computer: Intel NUC7i5BNH
-# (5) UAV platform: Freefly Alta-X (with Tattu 12S 16Ah battery set)
+# (5) UAV platform: Freefly Alta X (with Tattu 12S 16Ah battery set)
 
 import depthai as dai
 import datetime
@@ -228,4 +228,5 @@ for t in Threads:
     t.join()
 
 print("DATA COLLECTION COMPLETED. ALL DATA SAVED TO DISK.")
+
 
