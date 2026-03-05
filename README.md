@@ -11,12 +11,8 @@ A python-based data acquisition program for a remote sensing platform integratin
 numpy, opencv, pyserial, depthai
 
 ### Test platform:
-(1) Ultrasonic anemometer x 2: LI-COR LI550-P
-
-(2) Particulate matter sensor x 1: Honeywell HPMA115C0-004
-
-(3) RGB camera x 1: Luxonis OAK-1W IMX378
-
-(4) Onboard computer: Intel NUC7i5BNH
-
-(5) UAS/UAV platform: Freefly Alta X (with Tattu 12S 16Ah battery set)
+1. Ultrasonic anemometer x 2: LI-COR LI550-P
+2. Particulate matter sensor x 1: Honeywell HPMA115C0-004
+3. RGB camera x 1: Luxonis OAK-1W IMX378
+4. Onboard computer: Intel NUC7i5BNH
+5. UAS/UAV platform: Freefly Alta X (with Tattu 12S 16Ah battery set)
